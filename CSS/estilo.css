@@ -1,3 +1,14 @@
 img{
     width: 50%;
 }
+
+/*Comentário em CSS*/
+
+/*Veja que a cor da borda não muda, porque temos na página index um CSS inline
+que é mais forte que as outras regras por ser carregado por último dentro da demanda
+da página. Porém se quisermos podemos marcar nossa regra aqui como important! e 
+ela passa a ser mais importante e ela será carregada primeiro*/
+
+header{
+    border: 2px solid #1900ff;
+}
