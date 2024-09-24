@@ -1,3 +1,7 @@
 img{
     width: 50%;
 }
+
+header{
+    border: 2px solid rgb(97, 4, 90) !important;
+}
