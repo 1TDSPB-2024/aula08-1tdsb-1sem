@@ -1,3 +1,10 @@
 img{
     width: 50%;
 }
+
+
+/*Comentario em CSS*/
+
+header{
+    border: 2px solid rgb(228, 27, 118) !important;
+}
