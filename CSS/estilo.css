@@ -1,3 +1,23 @@
 img{
     width: 50%;
 }
+
+
+/*Comentário em CSS*/
+
+/*Veja que a cor da borda não muda, porque temos na página index um css inline que é mais forte que as outras regras por ser carregado por último dentro da demanda da página.
+Porém se quisermos podemos marcar nossa regra aqui como !important e ela passa a ser mais importante e ela será carregada mandatóriamente sobre as demais.
+*/
+header{
+    border: 2px solid #1e2836;
+    background-image: url('../img/img-01-banner-1280×640.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
