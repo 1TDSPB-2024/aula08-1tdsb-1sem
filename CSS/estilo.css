@@ -1,3 +1,15 @@
 img{
     width: 50%;
 }
+
+/* Comentario em CSS*/
+
+/* Veja que a cor da borda nao muda, porque temos na pg INDEX um css inline que acaba sendo mais
+forte que as outras regras por ser carrgeado por ultimo dentro da demanda da pagina.
+Porem se quisermos podemos marcar nossa regra aqui como important! e ela passa a ser mais importante
+e ela sera carregada mandatoriamente sobre as demais.*/ 
+
+header{
+    border: 2px solid blue !important;
+
+}
