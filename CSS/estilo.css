@@ -1,3 +1,11 @@
 img{
     width: 50%;
 }
+
+
+/*Veja que a cor da borda nao muda, porque temos na pagina index um css inline 
+que e mais forte que as outras regras por ser carregado por ultimo dentro da demnada da pagina.
+Porem se quisermos podemos marcar  */
+header{
+    border: 2px solid #f700ff !important;
+}
