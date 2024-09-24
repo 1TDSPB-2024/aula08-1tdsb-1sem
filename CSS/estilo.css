@@ -1,3 +1,8 @@
 img{
     width: 50%;
 }
+    /* a cor amis que vai ser usado no css vai ser o que esta inline dentro do index, para usar esse daqui tem que dar um !important */
+
+header{
+    border: 2px solid #ff00aa !important;
+}
