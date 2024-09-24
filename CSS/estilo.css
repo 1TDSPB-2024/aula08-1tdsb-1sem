@@ -1,5 +1,5 @@
 img{
-    width: 50%;
+    width: 3%;
 }
 
 /* Comentario em CSS*/
@@ -10,6 +10,16 @@ Porem se quisermos podemos marcar nossa regra aqui como important! e ela passa a
 e ela sera carregada mandatoriamente sobre as demais.*/ 
 
 header{
-    border: 2px solid blue !important;
+    border: 2px solid blue;
+    background-image: url('../img/img-01-banner-1280×640.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
 
 }
