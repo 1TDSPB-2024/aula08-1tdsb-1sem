@@ -4,5 +4,15 @@ img{
     /* a cor amis que vai ser usado no css vai ser o que esta inline dentro do index, para usar esse daqui tem que dar um !important */
 
 header{
-    border: 2px solid #ff00aa !important;
+    border: 2px solid #cc0000 !important;
+    background-image: url(../img/img-01-banner-1280×640.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
 }
