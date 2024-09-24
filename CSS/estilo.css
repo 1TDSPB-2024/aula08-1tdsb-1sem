@@ -1,3 +1,9 @@
-img{
+img {
     width: 50%;
+}
+
+/*!important faz com que a ordem de precedencia entre os CSSs seja ignorada e o estilo que tiver com essa tag sobreponha 
+os outros*/
+header {
+    border: 2px solid #f700ff !important;
 }
