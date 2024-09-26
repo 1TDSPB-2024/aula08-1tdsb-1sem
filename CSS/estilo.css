@@ -24,3 +24,35 @@ a{
     text-decoration: nome;
     color: #fff;
 }
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+
+.rodape-imagens img {
+    width: 100px; 
+    height: auto;
+    margin: 10px; 
+    transition: transform 0.3s; 
+}
+
+
+.rodape-imagens a {
+    text-decoration: none;
+}
+
+
+.rodape-imagens img:hover {
+    transform: scale(1.1); 
+}
+
+
+.rodape-imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
