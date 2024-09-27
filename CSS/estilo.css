@@ -20,3 +20,40 @@ a{
     text-decoration: none; 
     color: #fff;   
 }
+
+/* Estilo para garantir que o rodapé fique no final da página */
+html, body {
+    height: 100%; /* Faz com que o body ocupe toda a altura da página */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* Faz com que o conteúdo principal ocupe o espaço restante */
+}
+
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+footer a img {
+    width: 50px; /* Tamanho da imagem */
+    margin-top: 10px; /* Espaçamento superior */
+}
+
+footer a {
+    display: inline-block; /* Garante que o link se comporte como um bloco ao redor da imagem */
+    padding: 5px;
+    background-color: #882b2b; /* Cor de fundo ao redor da imagem */
+    border-radius: 8px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease;
+}
+
